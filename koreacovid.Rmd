@@ -44,7 +44,13 @@ The majority of people who were alive female, at about 55%, while the rest were 
 
   
 ## Numerical results
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
 
+Females were shown to have 56 alive compared to males having 44 alive. Looking at the percentage we can see 1.4% for females and 3% for males meaning that there is a 2:1 ratio of males dying over females.
 
 ## Inferential results 
 
