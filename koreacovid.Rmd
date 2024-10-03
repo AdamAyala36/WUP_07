@@ -65,3 +65,4 @@ The Null results expected that the percentage of the dead males and females comp
 
 ## Conclusions
 
+The graph shows that a majority of males would die compared to females. To prove this checking the numbers we would see the percent doubled for males compared to females. Seeing if this was true with our null test we would see that the men dead group nearly doubled the percentage of the female dead group.
