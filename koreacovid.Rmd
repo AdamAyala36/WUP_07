@@ -54,7 +54,13 @@ Females were shown to have 56 alive compared to males having 44 alive. Looking a
 
 ## Inferential results 
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 
+The Null results expected that the percentage of the dead males and females compared to alive males and females would be equal. However, the observed counts showed that men nearly doubled the percentage of the female dead population. 
 
 
 ## Conclusions
